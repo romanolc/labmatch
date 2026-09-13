@@ -1,41 +1,49 @@
-# LabMatch — Standalone Web Prototype
+<div align="center">
 
-Protótipo web do LabMatch, desenvolvido com React + TypeScript + Vite.
+# 🔷 LabMatch
 
-## Rodar localmente
+### Encontra o laboratório que combina com sua atividade.
 
-Requisitos: Node.js 20+.
+Sistema desenvolvido para facilitar a busca e reserva de laboratórios do SENAI CIMATEC.
 
-```bash
-npm install
-npm run dev
-```
+<br>
 
-Abra o endereço mostrado pelo Vite (normalmente `http://localhost:5173`).
+[🌐 Acessar o projeto](https://labmatch-eosin.vercel.app) •
+[💻 Repositório](https://github.com/romanolc/labmatch)
 
-## Build de produção
+</div>
 
-```bash
-npm run build
-npm run preview
-```
+---
 
-## Deploy na Vercel
+## ✦ Sobre o LabMatch
 
-1. Suba este projeto para um repositório GitHub.
-2. Importe o repositório na Vercel.
-3. Framework: Vite (detecção automática).
-4. Build command: `npm run build`.
-5. Output directory: `dist`.
-6. Não é necessário configurar backend para o protótipo atual.
+Encontrar um laboratório adequado nem sempre é simples.
 
-O arquivo `vercel.json` já inclui o fallback para rotas do SPA.
+O aluno precisa verificar disponibilidade, capacidade, equipamentos, localização e outras características antes de realizar uma reserva.
 
-## Acesso demonstrativo
+O **LabMatch** foi pensado para diminuir esse processo.
 
-- RA: `20260001`
-- Senha: `123456`
+Em vez de apenas mostrar uma lista de laboratórios, o sistema considera o que o aluno precisa fazer e apresenta opções mais compatíveis com sua atividade.
 
-## Observação
+> **A ideia é simples:** você diz o que precisa. O LabMatch ajuda a encontrar onde fazer.
 
-Este pacote é independente de plataformas de geração/hospedagem externas. Dados de demonstração e preferências são armazenados localmente no navegador.
+---
+
+## ⚡ O problema
+
+Imagine que você tenha poucos minutos entre duas aulas e precise encontrar um laboratório para realizar uma atividade.
+
+Você precisa descobrir:
+
+```text
+Qual laboratório está disponível?
+        ↓
+Ele possui os equipamentos necessários?
+        ↓
+A capacidade é suficiente?
+        ↓
+O horário está livre?
+        ↓
+O espaço atende às necessidades de acessibilidade?
+        ↓
+Posso realizar a reserva?
