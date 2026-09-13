@@ -138,7 +138,7 @@ o sistema procura responder:
 
 > **Qual laboratório combina melhor com o que você pretende fazer?**
 
-O usuário consegue visualizar uma indicação de compatibilidade e entender melhor por que determinado laboratório foi recomendado.
+O usuário consegue visualizar um nível de compatibilidade entre sua necessidade e as opções disponíveis.
 
 ### O Match considera informações como:
 
@@ -270,79 +270,6 @@ Centralização de informações, atividades, projetos e preferências do usuár
 </td>
 </tr>
 </table>
-
----
-
-# 🖥️ Interface
-
-A interface foi desenvolvida pensando em uma experiência **desktop-first**, com adaptação para diferentes tamanhos de tela.
-
-A proposta visual utiliza uma identidade tecnológica, limpa e organizada, priorizando:
-
-- hierarquia visual;
-- contraste;
-- legibilidade;
-- espaçamento;
-- consistência;
-- feedback visual;
-- navegação clara;
-- componentes reutilizáveis.
-
-### Direção visual
-
-```text
-Paleta principal
-────────────────────────────────
-
-Dark Navy       #0B1220
-Blue            #2563EB
-Light Blue      #60A5FA
-White           #F8FAFC
-Gray            #64748B
-Dark Gray       #111827
-```
-
-A interface evita excesso de elementos decorativos e prioriza a informação necessária para a tomada de decisão.
-
----
-
-## 📸 Telas do projeto
-
-> Os espaços abaixo podem ser preenchidos com screenshots reais do protótipo.
-
-### Login
-
-```text
-screenshots/login.png
-```
-
-### Dashboard
-
-```text
-screenshots/dashboard.png
-```
-
-### Busca e Match
-
-```text
-screenshots/match.png
-```
-
-### Reserva
-
-```text
-screenshots/reserva.png
-```
-
-### Perfil
-
-```text
-screenshots/perfil.png
-```
-
-> Para exibir as imagens no GitHub, basta colocar os arquivos dentro de uma pasta chamada `screenshots` e usar, por exemplo:
->
-> `![Dashboard](./screenshots/dashboard.png)`
 
 ---
 
@@ -541,6 +468,36 @@ A experiência pode ser dividida em diferentes áreas:
 ```
 
 Isso permite que a plataforma evolua futuramente para uma experiência mais completa dentro do ambiente acadêmico.
+
+---
+
+# 🎨 Identidade visual
+
+A interface foi pensada para transmitir uma identidade tecnológica, acadêmica e moderna, sem abrir mão da clareza.
+
+### Paleta principal
+
+| Cor | Hexadecimal | Uso |
+| --- | --- | --- |
+| Dark Navy | `#0B1220` | Fundos e áreas principais |
+| Blue | `#2563EB` | Ações e destaques |
+| Light Blue | `#60A5FA` | Elementos secundários |
+| White | `#F8FAFC` | Textos e áreas claras |
+| Gray | `#64748B` | Textos secundários |
+| Dark Gray | `#111827` | Cards e superfícies |
+
+### Direção de design
+
+- visual limpo;
+- hierarquia bem definida;
+- contraste;
+- espaçamento consistente;
+- componentes reutilizáveis;
+- feedback visual;
+- responsividade;
+- foco na tarefa do usuário.
+
+A proposta evita excesso de elementos decorativos que possam competir com as informações importantes.
 
 ---
 
